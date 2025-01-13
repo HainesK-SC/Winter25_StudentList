@@ -6,11 +6,42 @@ package studentexample;
 
 /**
  *
- * @author thepr
+ * @author Kyle Haines
  */
 public class Student {
     private String name;
     private int sid;
+    private int semesterNum;
+    private String progName;
+    
+    /**
+     * @return the progName
+     */
+    public String getProgName() {
+        return progName;
+    }
+
+    /**
+     * @param progName the progName to set
+     */
+    public void setProgName(String progName) {
+        this.progName = progName;
+    }
+    
+    /**
+     * @return the semesterNum
+     */
+    public int getSemesterNum() {
+        return semesterNum;
+    }
+
+    /**
+     * @param semesterNum the semesterNum to set
+     */
+    public void setSemesterNum(int semesterNum) {
+        this.semesterNum = semesterNum;
+    }
+
     /**
      * @return the sid
      */
