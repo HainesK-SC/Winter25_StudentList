@@ -8,6 +8,12 @@ package studentexample;
  *
  * @author Kyle Haines
  */
+
+/**
+ * 
+ * This comment will be removed in a commit rollback
+ */
+
 public class Student {
     private String name;
     private int sid;
